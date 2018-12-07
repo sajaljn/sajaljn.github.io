@@ -1,0 +1,122 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(books.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+.main-nav li
+{
+  display: inline-block;
+}
+
+.main-nav li a
+{
+  color: white;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-family: "roboto", sans-sarif;
+  font-size: 15px;  
+}
+
+.main-nav li a:hover
+{
+  border: 1px solid white;
+}
+
+.logo img
+{
+  width: 230px;
+  height: auto;
+  float: left; 
+}
+
+.effect-underline {
+    color: #e0dfdc;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+      0 4px 0 #282828, 
+      0 5px 0 #262626, 
+      0 6px 0 #242424, 
+      0 7px 0 #222, 
+      0 8px 0 #202020, 
+      0 9px 0 #1e1e1e, 
+      0 10px 0 #1c1c1c, 
+      0 11px 0 #1a1a1a, 
+      0 12px 0 #181818, 
+      0 13px 0 #161616, 
+      0 14px 0 #141414, 
+      0 15px 0 #121212, 
+      0 22px 30px rgba(0, 0, 0, 0.5);
+  }
+h1 a {
+	margin-top: 30px;
+  color: #fff;
+  font-size: 1em;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  font-family: 'Dosis', sans-serif;
+}
+a.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  backface-visibility: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: darkorange}
+
+.button:active {
+  border: 1px solid white;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

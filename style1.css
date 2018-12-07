@@ -1,0 +1,138 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bgimg.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "roboto", sans-sarif;
+	font-size: 15px;	
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left; 
+}
+
+.main
+{
+	position: absolute;
+	width: 1200px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+h3
+{
+	color: white;
+	text-transform: all;
+	font-size: 40px;
+	text-align: left;
+	margin-top: 185px;
+	margin-left: 340px;
+	font-family: "roboto"
+}
+
+h1
+{
+	color: white;
+	text-transform: all;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 210px;
+	font-family: "roboto"
+}
+
+h2
+{
+	color: white;
+	text-transform: all;
+	font-size: 40px;
+	text-align: right;
+	margin-top: 0px;
+	margin-left: 150px;
+	margin-right: 220px;
+	font-family: "roboto"
+}
+
+h4
+{
+	color: white;
+	text-transform: all;
+	font-size: 17px;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: "roboto", cambridge;
+}
+
+.active
+{
+	float: center;
+	text-align: center;
+	font-size: 30px;
+	list-style: none;
+	margin-top: 50px;
+	margin-left: 190px; 
+}
+
+.active li
+{
+	display: inline-block;
+}
+
+.active li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	padding: 5px 20px;
+	font-family: "roboto", sans-sarif;	
+}
+
+.active li.active1 a:hover
+{
+	border: 3px solid white;
+}
+
+.active li.active1 a
+{
+	border: 1px solid white;
+}
+
+
+
+
+
