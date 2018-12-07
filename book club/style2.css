@@ -1,0 +1,273 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(5.jpg);
+	height: 450vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 25px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "roboto", sans-sarif;
+	font-size: 15px;	
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.logo img
+{
+	width: 150px;
+	height: auto;
+	float: left; 
+}
+
+.main
+{
+	position: all;
+	width: 1200px;
+	margin-right: 40px;
+	margin-left: 0px;
+
+}
+
+
+h1
+{
+	color: white;
+	text-transform: all;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 0px;
+	margin-left: 210px;
+	font-family: "roboto"
+}
+
+h2
+{
+	color: white;
+	text-transform: all;
+	font-size: 30px;
+	text-align: right;
+	margin-top: 0px;
+	margin-left: 150px;
+	margin-right: 220px;
+	font-family: "roboto";
+}
+
+
+h3
+{
+	color: white;
+	text-transform: all;
+	text-transform: comic sans MS;
+	font-size: 40px;
+	text-align: right;
+	margin-top: 100px;
+	margin-left: 150px;
+	margin-right: 80px;
+	font-family: "roboto";
+}
+
+.active
+{
+	float: center;
+	text-align: center;
+	font-size: 30px;
+	list-style: none;
+	margin-top: 150px;
+	margin-left: 0px;
+	margin-right: 100px; 
+	
+}
+
+.active li
+{
+	display: inline-grid;
+}
+
+
+
+
+
+
+.active li.active1 a
+{
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(comedy1.jpg);
+	background-size: cover;
+	font-size: 40px;
+	padding: 150px 200px;
+	font-family: "roboto", sans-sarif;	
+}
+
+.active li.active1 a:hover
+{
+	border: 3px solid white;
+	padding: 220px 340px;
+}
+
+.active li.active1 a
+{
+	border: 1px solid white;
+}
+
+
+
+
+
+.active li.active2 a
+{
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(horror.jpg);
+	background-size: cover;
+	font-size: 40px;
+	padding: 150px 200px;
+	font-family: "roboto", sans-sarif;	
+}
+
+.active li.active2 a:hover
+{
+	border: 3px solid white;
+	padding: 220px 340px;
+}
+
+.active li.active2 a
+{
+	border: 1px solid white;
+}
+
+
+
+
+
+.active li.active3 a
+{
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(adventure1.jpg);
+	background-size: cover;
+	font-size: 40px;
+	padding: 150px 160px;
+	font-family: "roboto", sans-sarif;	
+}
+
+.active li.active3 a:hover
+{
+	border: 3px solid white;
+	padding: 220px 340px;
+}
+
+.active li.active3 a
+{
+	border: 1px solid white;
+}
+
+
+
+
+
+
+.active li.active4 a
+{
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(mystry.jpg);
+	background-size: cover;
+	font-size: 40px;
+	padding: 150px 200px;
+	font-family: "roboto", sans-sarif;	
+}
+
+.active li.active4 a:hover
+{
+	border: 3px solid white;
+	padding: 220px 340px;
+}
+
+.active li.active4 a
+{
+	border: 1px solid white;
+}
+
+
+
+
+
+
+.active li.active5 a
+{
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(scifi.jpg);
+	background-size: cover;
+	font-size: 40px;
+	padding: 150px 114px;
+	font-family: "roboto", sans-sarif;	
+}
+
+.active li.active5 a:hover
+{
+	border: 3px solid white;
+	padding: 220px 270px;
+}
+
+.active li.active5 a
+{
+	border: 1px solid white;
+}
+
+
+
+
+
+
+
+.active li.active6 a
+{
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(romance.jpeg);
+	background-size: cover;
+	font-size: 40px;
+	padding: 150px 180px;
+	font-family: "roboto", sans-sarif;	
+}
+
+.active li.active6 a:hover
+{
+	border: 3px solid white;
+	padding: 220px 320px;
+}
+
+.active li.active6 a
+{
+	border: 1px solid white;
+}
+
+
